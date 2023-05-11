@@ -1,0 +1,399 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+ @font-face {
+    font-family: 'Future-regular';
+    src: url('../fonts/Future-Regular/FUF_____.TTF');
+ }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #202024;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/*Left side*/
+
+.cv-wrapper {
+    display: flex;
+    width: 95%;
+    margin: 42px auto;
+    padding: 0px;
+    background: #FFF8FB;
+    border-radius: 5px;
+}
+
+.cv-wrapper .cv-left {
+    width: 35%;
+    background-color: #141519;
+    color: #fff8fbcf;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.cv-wrapper .cv-left .cv-image {
+    width: 100%;
+}
+
+.cv-wrapper .cv-left .cv-image img {
+    display: block;
+    width: 100%;
+    border-radius: 5px 0px 0px 0px;
+}
+
+.cv-wrapper .cv-title {
+    color: #FFF8FB;
+    text-transform: uppercase;
+    font-family: 'Future-regular';
+    font-size: 20px;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+}
+
+.cv-wrapper .cv-left .cv-info p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.5;
+    color: #fff8fbcf;
+}
+
+.cv-wrapper .cv-left .cv-info a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #fff8fbcf;
+}
+
+.cv-wrapper .cv-left .cv-bottom {
+    padding: 20px 30px
+}
+
+.cv-wrapper .cv-item {
+    padding: 20px 0;
+    border-bottom: 2px solid #F05B82 ;
+}
+
+.cv-wrapper .cv-item:last-child {
+    border-bottom: 0px;
+}
+
+.cv-wrapper .cv-left .cv-name {
+display: none;
+}
+
+.cv-wrapper .cv-left .cv-name .name h1 {
+    font-size: 28px;
+    color: #FFF8FB;
+    text-transform: uppercase;
+    font-family: 'Future-regular';
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.cv-wrapper .cv-left .cv-name .role h2 {
+    color: #fff8fbcf;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.cv-wrapper .cv-left .cv-information .cv-info {
+    margin-top: 10px;
+}
+
+.cv-wrapper .cv-left .cv-information .cv-subtitle h4 {
+    color: #FFF8FB;
+    margin-bottom: 4px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cv-wrapper .cv-left .cv-contact .cv-info {
+    margin-top: 10px;
+}
+
+.cv-wrapper .cv-left .cv-contact .cv-subtitle h4 {
+    color: #FFF8FB;
+    margin-bottom: 4px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cv-wrapper .cv-left .cv-socials .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 18px;
+}
+
+.cv-wrapper .cv-left .cv-socials .socials li {
+    margin: 0 10px;
+}
+
+.cv-wrapper .cv-left .cv-socials .socials a {
+    font-size: 18px;
+    color: #FFF8FB;
+    text-decoration: none;
+}
+
+.cv-wrapper .cv-left .cv-socials .socials a i {
+    font-size: 2rem;
+    transition: color .4s ease;
+}
+
+.cv-wrapper .cv-left .cv-socials .socials a:hover i {
+    color: #F05B82;
+}
+
+.cv-wrapper .cv-left .cv-skills .skills-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFF8FB;
+}
+
+.cv-wrapper .cv-left .cv-skills .skills-list .skills-bar p {
+    position: relative;
+    width: 124px;
+    height: 20px;
+    background: #FFF8FB;
+}
+
+.cv-wrapper .cv-left .cv-skills .skills-list .skills-bar p span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #F05B82;
+    width: 100%;
+    height:100%;
+}
+
+/*Right side*/
+
+.cv-wrapper .cv-right {
+    width: 75%;
+    padding: 20px 50px;
+}
+
+.cv-wrapper .cv-right .cv-name .name h1 {
+    font-size: 32px;
+    color: #141519;
+    text-transform: uppercase;
+    font-family: 'Future-regular';
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.cv-wrapper .cv-right .cv-name .role h2 {
+    color: #202024d6;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.cv-wrapper .cv-right .cv-title h3 {
+    color: #141519;
+    text-transform: uppercase;
+    font-family: 'Future-regular';
+    font-size: 20px;
+    margin-bottom: 24px;
+    letter-spacing: 2px;
+}
+
+.cv-wrapper .cv-right .cv-data h4 {
+    color: #202024;
+    margin-bottom: 8px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cv-wrapper .cv-right .cv-data p {
+    color: #202024db;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.cv-wrapper .cv-right .cv-data {
+    display: flex;
+}
+
+.cv-wrapper .cv-right .cv-data .year { 
+    padding-right: 35px;
+    width: 130px;
+    position: relative;
+    color: #202024ca;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cv-wrapper .cv-right .cv-data .content {
+    padding-left: 35px;
+    margin-bottom: 20px;
+    width: calc(100% - 115px);
+}
+
+.cv-wrapper .cv-right .cv-data .year:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background: #FFF8FB;
+    border: 2px solid #F05B82;
+    border-radius: 50%;
+}
+
+.cv-wrapper .cv-right .cv-data .year:after {
+    content: "";
+    position: absolute;
+    top: 17px;
+    right: 6px;
+    width: 3px;
+    height: 95%;
+    background: #F05B82;
+}
+
+.cv-wrapper .cv-right .cv-data:last-child .year:after {
+    display: none;
+}
+
+.cv-wrapper .cv-right .cv-albums .cv-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.cv-wrapper .cv-right .cv-albums .cv-info .albums {
+    width: 200px;
+    margin-bottom: 16px;
+    transition: transform .2s;
+}
+
+.cv-wrapper .cv-right .cv-albums .cv-info .albums:hover {
+    transform: scale(1.1);
+}
+
+.cv-wrapper .cv-right .cv-albums .cv-info .alb-img img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px ;
+    border-radius: 5px;
+}
+
+.cv-wrapper .cv-right .cv-albums .cv-info .alb-data {
+    color: #202024;
+    margin-bottom: 8px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+
+    .cv-wrapper .cv-right .cv-name .role h2 {
+        display: none;
+    }
+
+    .cv-wrapper .cv-right .cv-name .name h1 {
+        display: none;
+    }
+
+    .cv-wrapper .cv-left .cv-name .role h2 {
+        display: block;
+    }
+
+    .cv-wrapper .cv-left .cv-name .name h1 {
+        display: block;
+        font-size: 32px;
+    }
+
+    .cv-wrapper .cv-left .cv-name {
+        display: block;
+    }
+
+    .cv-wrapper {
+        width: 95%;
+        margin: 10px auto;
+        flex-direction: column;
+    }
+
+    .cv-wrapper .cv-left, 
+    .cv-wrapper .cv-right {
+        width: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 424px) {
+
+    .cv-wrapper .cv-right {
+        padding: 20px 30px;
+    }
+
+    .cv-wrapper .cv-right .cv-data {
+        flex-direction: column;
+    }
+
+    .cv-wrapper .cv-right .cv-data .year {
+        padding: 0;
+        margin-bottom: 5px;
+        width: 100%;
+        color: #F05B82;
+    }
+
+    .cv-wrapper .cv-right .cv-data .year:before,
+    .cv-wrapper .cv-right .cv-data .year:after {
+        display: none;
+    }
+
+    .cv-wrapper .cv-right .cv-data .content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .cv-wrapper .cv-right .cv-albums .cv-info .alb-img img {
+        width: 140px;
+        height: auto;
+    }
+
+    .cv-wrapper .cv-right .cv-albums .cv-info .albums {
+        width: 140px;
+        margin-bottom: 12px;
+        transition: none;
+    }
+
+    .cv-wrapper .cv-right .cv-albums .cv-info .alb-data {
+        color: #202024;
+        margin-bottom: 8px;
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
